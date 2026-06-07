@@ -157,3 +157,48 @@ footer {
       font-size: 1.25em;
       color: #999999; }
 
+/* Filter Menu Styles */
+.research-filters {
+    margin-bottom: 25px;
+    line-height: 1.8;
+}
+.research-filters a {
+    text-decoration: none;
+    padding: 5px 8px;
+    color: #333;
+    transition: 0.2s ease-in-out;
+}
+.research-filters a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+.research-articles li {
+    margin-bottom: 16px; /* Adjust this value to your preferred spacing */
+}
+/* List Item Wrapper */
+.article-item {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Category Tag Styles */
+.pub-tag {
+    display: inline-block;
+    padding: 3px 7px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Tag Colors */
+.tag-scopus-journal { background-color: #0056b3; } /* Blue */
+.tag-scopus-conf { background-color: #17a2b8; }    /* Teal */
+.tag-sinta-journal { background-color: #28a745; }  /* Green */
+.tag-non-sinta { background-color: #6c757d; }      /* Gray */
+.tag-local-conf { background-color: #fd7e14; }     /* Orange */
+.tag-in-press { background-color: #ffc107; color: #333; } /* Yellow */
